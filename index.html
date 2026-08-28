@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Crochet Queen — Handmade Crochet Creations</title>
+  <meta name="description" content="The Crochet Queen — handmade crochet flowers, bags, amigurumi and home pieces, crafted with love and made just for you." />
+  <meta name="theme-color" content="#F7F1E8" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Crochet Queen — Handmade Crochet Creations" />
+  <meta property="og:description" content="Handcrafted with love, made just for you. Shop one-of-a-kind crochet pieces." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/og-cover.jpg" />
+
+  <!-- Fonts: Fraunces (soft, handmade serif for display) + Jost (clean geometric sans for body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ SKIP LINK (Accessibility) ============ -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand" aria-label="The Crochet Queen — Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 6 C10 6 6 14 6 20 C6 28 12 34 20 34 C28 34 34 28 34 20 C34 14 30 6 20 6 Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M13 20 Q20 10 27 20 Q20 30 13 20 Z" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </span>
+        <span class="brand-text">The Crochet Queen</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#products" class="nav-link">Shop</a></li>
+          <li>
+            <a href="#cart" class="nav-link cart-link" id="cart-nav-link">
+              <span aria-hidden="true">🧶</span>
+              Cart <span id="cart-count-label">(0)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile" hidden>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Shop</a></li>
+        <li><a href="#cart" class="nav-link">Cart <span id="cart-count-label-mobile">(0)</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=1600&q=80"
+          alt=""
+          class="hero-img"
+          id="hero-image"
+          onerror="this.src='https://placehold.co/1600x1000/E7D9C9/6B4226?text=The+Crochet+Queen'"
+        />
+        <div class="hero-overlay"></div>
+        <svg class="hero-stitch" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 30 Q 30 0, 60 30 T 120 30 T 180 30 T 240 30 T 300 30 T 360 30 T 420 30 T 480 30 T 540 30 T 600 30 T 660 30 T 720 30 T 780 30 T 840 30 T 900 30 T 960 30 T 1020 30 T 1080 30 T 1140 30 T 1200 30" fill="none" stroke="currentColor" stroke-width="3"/>
+        </svg>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Small-batch &amp; handmade</p>
+        <h1 class="hero-title">The Crochet Queen</h1>
+        <p class="hero-subtitle">Handcrafted with love, made just for you.</p>
+        <a href="#products" class="btn btn-primary" id="shop-collection-btn">Shop Collection</a>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <p class="eyebrow">Our Collection</p>
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-subtitle">Beautiful handmade crochet pieces crafted with care.</p>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Product cards are generated dynamically by js/script.js -->
+      </div>
+    </section>
+
+    <!-- ============ CART ============ -->
+    <section class="cart-section" id="cart">
+      <div class="cart-panel" id="cart-panel">
+
+        <div class="cart-view" id="cart-view">
+          <div class="section-heading section-heading--left">
+            <p class="eyebrow">Step 1</p>
+            <h2 class="section-title">Your Cart</h2>
+          </div>
+
+          <div id="cart-empty-state" class="empty-state" hidden>
+            <span class="empty-state-icon" aria-hidden="true">🧺</span>
+            <p class="empty-state-text">Your cart is waiting for something handmade.</p>
+            <a href="#products" class="btn btn-secondary">Continue Shopping</a>
+          </div>
+
+          <div id="cart-items-wrapper">
+            <ul class="cart-items" id="cart-items-list"></ul>
+
+            <div class="cart-summary">
+              <div class="cart-summary-row">
+                <span>Items</span>
+                <span id="cart-total-items">0</span>
+              </div>
+              <div class="cart-summary-row cart-summary-row--total">
+                <span>Grand Total</span>
+                <span id="cart-total-amount">₹0</span>
+              </div>
+              <button class="btn btn-primary btn-block" id="go-to-checkout-btn">Go to Checkout</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ CHECKOUT ============ -->
+        <div class="checkout-view" id="checkout-view" hidden>
+          <div class="section-heading section-heading--left">
+            <p class="eyebrow">Step 2</p>
+            <h2 class="section-title">Your Order</h2>
+          </div>
+
+          <ul class="order-summary" id="order-summary-list"></ul>
+
+          <div class="order-total">
+            <span>Total</span>
+            <span id="order-total-amount">₹0</span>
+          </div>
+
+          <form id="checkout-form" class="checkout-form" novalidate>
+            <p class="form-note">
+              This is a static site hosted on GitHub Pages — orders are sent securely via
+              <a href="https://web3forms.com" target="_blank" rel="noopener">Web3Forms</a>, no server required.
+            </p>
+
+            <div class="form-group">
+              <label for="customer-name">Full Name</label>
+              <input type="text" id="customer-name" name="name" autocomplete="name" required />
+              <span class="field-error" id="error-name" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="customer-phone">Contact Number</label>
+              <input type="tel" id="customer-phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="e.g. 9876543210" required />
+              <span class="field-error" id="error-phone" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="customer-email">Email Address</label>
+              <input type="email" id="customer-email" name="email" autocomplete="email" required />
+              <span class="field-error" id="error-email" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="customer-address">Delivery Address</label>
+              <textarea id="customer-address" name="address" rows="3" autocomplete="street-address" required></textarea>
+              <span class="field-error" id="error-address" role="alert"></span>
+            </div>
+
+            <p class="form-error-banner" id="form-error-banner" role="alert" hidden></p>
+
+            <div class="checkout-actions">
+              <button type="button" class="btn btn-tertiary" id="back-to-cart-btn">Back to Cart</button>
+              <button type="submit" class="btn btn-primary" id="place-order-btn">
+                <span id="place-order-btn-text">Place Order</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ ORDER CONFIRMATION MODAL ============ -->
+  <div class="modal-backdrop" id="confirmation-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="confirmation-title">
+      <span class="modal-icon" aria-hidden="true">🧵</span>
+      <h2 id="confirmation-title" class="modal-title">Order Placed</h2>
+      <p class="modal-text">Your order has been placed, we will contact with you soon to confirm the order and payment, Thank you.</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="continue-shopping-btn">Continue Shopping</button>
+        <button class="btn btn-primary" id="go-home-btn">Go Home</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TOAST (error notifications) ============ -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; <span id="footer-year"></span> The Crochet Queen. Made with care, stitch by stitch.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
