@@ -27,7 +27,7 @@ const products = [
     code: "CQ001",
     description: "A beautiful handmade crochet flower bouquet that never wilts.",
     price: 899,
-    image: "https://placehold.co/600x600/F2E7D6/6B4A34?text=Flower+Bouquet"
+    image: "/images/crochet034.png"
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const products = [
     code: "CQ002",
     description: "A sturdy, stylish everyday tote crocheted by hand.",
     price: 1299,
-    image: "https://placehold.co/600x600/E9DAC3/6B4A34?text=Tote+Bag"
+    image: "/images/crochet035.png"
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const products = [
     code: "CQ003",
     description: "A soft, huggable teddy bear made with cozy yarn.",
     price: 749,
-    image: "https://placehold.co/600x600/F2E7D6/6B4A34?text=Teddy+Bear"
+    image: "/images/crochet036.png"
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const products = [
     code: "CQ004",
     description: "A set of 4 colourful coasters to dress up any table.",
     price: 499,
-    image: "https://placehold.co/600x600/E9DAC3/6B4A34?text=Coaster+Set"
+    image: "/images/crochet042.png"
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const products = [
     code: "CQ005",
     description: "Tiny, soft booties for tiny feet — a lovely baby gift.",
     price: 599,
-    image: "https://placehold.co/600x600/F2E7D6/6B4A34?text=Baby+Booties"
+    image: "/images/crochet038.png"
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const products = [
     code: "CQ006",
     description: "A charming mini handbag, perfect for evenings out.",
     price: 999,
-    image: "https://placehold.co/600x600/E9DAC3/6B4A34?text=Mini+Handbag"
+    image: "/images/crochet039.png"
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const products = [
     code: "CQ007",
     description: "A boho-style hanger to give your plants a cozy home.",
     price: 649,
-    image: "https://placehold.co/600x600/F2E7D6/6B4A34?text=Plant+Hanger"
+    image: "/images/crochet040.png"
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const products = [
     code: "CQ008",
     description: "A tiny handmade charm to personalise your keys or bag.",
     price: 299,
-    image: "https://placehold.co/600x600/E9DAC3/6B4A34?text=Keychain"
+    image: "/images/crochet041.png"
   }
 ];
 

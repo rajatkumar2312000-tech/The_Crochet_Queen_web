@@ -1,5 +1,3 @@
-# The_Crochet_Queen_web
-
 # The Crochet Queen 🧶
 
 A modern, responsive, single-page e-commerce website for a handmade crochet
