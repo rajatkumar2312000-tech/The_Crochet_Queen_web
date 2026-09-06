@@ -1,5 +1,7 @@
 # The Crochet Queen 🧶
 
+Website link: https://rajatkumar2312000-tech.github.io/The_Crochet_Queen_web/
+
 A modern, responsive, single-page e-commerce website for a handmade crochet
 business — built as a **static site** (HTML, CSS, vanilla JavaScript only)
 so it can be hosted for free on **GitHub Pages**. No backend, no database,
