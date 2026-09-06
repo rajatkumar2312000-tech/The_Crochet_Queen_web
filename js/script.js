@@ -92,10 +92,10 @@ const products = [
    ========================================================================= */
 const WEB3FORMS_CONFIG = {
   // 1) Replace with your Web3Forms Access Key (get one free at https://web3forms.com)
-  accessKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+  accessKey: "75b34363-6c52-48a6-b5cf-a8de273ca14e",
   // 2) Replace with the email address where you want to receive orders.
   //    This must match / be added to the account that owns the access key above.
-  receivingEmail: "YOUR_ORDER_RECEIVING_EMAIL@example.com",
+  receivingEmail: "rajatkumar2312000@gmail.com",
   endpoint: "https://api.web3forms.com/submit"
 };
 
